@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TritonMUN X</string>
+    <string-array name="navigation_drawer_items_array">
+    	<item>Home</item>
+    	<item>Schedule</item>
+   		<item>Conference Organizers</item>
+   		<item>Committee Information</item>
+   		<item>Map</item>
+	</string-array>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+	<string name="drawer_close">Close navigation drawer</string>
+	<string name="TritonMUN">TritonMUN X</string>
+	<string name="date">Saturday, November 1st 2014</string>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/schedule_background" >
+ 
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Schedule"
+        android:textSize="40dp"/>
+        
+    <TextView    
+        android:id="@+id/txtLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel"
+        android:layout_alignParentLeft="true"
+        android:text="8:00 am to 9:00 am: Check in"
+        android:textSize="20dp"
+         />
+         
+    <TextView    
+        android:id="@+id/txtLabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel2"
+        android:layout_alignParentLeft="true"
+        android:text="9:00 am to 9:30 am: Opening Ceremony"
+        android:textSize="20dp"
+         />
+         
+    <TextView    
+        android:id="@+id/txtLabelspeaker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel3"
+        android:layout_alignParentLeft="true"
+        android:text="		Speaker: Anne Craig, Former ERC Provost"
+        android:textSize="16dp"
+         />
+         
+    <TextView    
+        android:id="@+id/txtLabel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabelspeaker1"
+        android:layout_alignParentLeft="true"
+        android:text="9:30 am to 12:30 pm: Session I"
+        android:textSize="20dp"
+         />
+         
+         
+     <TextView    
+        android:id="@+id/txtLabel5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel4"
+        android:layout_alignParentLeft="true"
+        android:text="12:30 pm to 1:30 pm: Lunch"
+        android:textSize="20dp"
+         />
+         
+    <TextView    
+        android:id="@+id/txtLabel6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel5"
+        android:layout_alignParentLeft="true"
+        android:text="1:30 pm to 3:30 pm: Session II"
+        android:textSize="20dp"
+         />
+         
+      <TextView    
+        android:id="@+id/txtLabel7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel6"
+        android:layout_alignParentLeft="true"
+        android:text="4:00 pm to 4:30 pm: Closing Ceremony"
+        android:textSize="20dp"
+         />
+                
+</RelativeLayout>
+
